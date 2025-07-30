@@ -53,4 +53,4 @@ def get_bin_lookup_instruction() -> str:
 
 
 if __name__ == "__main__":
-    mcp.run_stdio()
+    mcp.run()
