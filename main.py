@@ -28,6 +28,7 @@ def validate_bin(bin: str) -> bool:
     """Validate that the input is a 6-digit BIN."""
     return len(bin) >= 6
 
+
 @mcp.prompt("card://bin-lookup")
 def bin_lookup_prompt() -> str:
     """
